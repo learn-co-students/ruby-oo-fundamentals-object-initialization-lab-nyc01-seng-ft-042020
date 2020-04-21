@@ -3,7 +3,7 @@
 # defaults the breed argument to "Mutt" in an instance variable @breed (FAILED - 3)
 
 class Dog
-    def initialize (name, breed)
+    def initialize (name, breed = "Mutt")
         @name = name
         @breed = breed
     end
